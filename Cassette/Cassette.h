@@ -12,3 +12,4 @@
 #import <Cassette/CASFileObjectQueue.h>
 #import <Cassette/CASInMemoryObjectQueue.h>
 #import <Cassette/CASDataSerializer.h>
+#import <Cassette/CASQueueFile.h>
