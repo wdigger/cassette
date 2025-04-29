@@ -336,7 +336,7 @@ static NSUInteger const ElementHeaderLength = 4;
     }
 
     // Optimize for clear call when possible since it is less expensive
-    if (amount >= self.elementCount) {
+    if (amount > self.elementCount) {
         return [self clearAndReturnError:error];
     }
 
