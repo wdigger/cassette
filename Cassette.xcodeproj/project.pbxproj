@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00F51DF502CEE37E08D774E7 /* libPods-Cassette-CassetteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BC2AFE01B19B98289F90B4 /* libPods-Cassette-CassetteTests.a */; };
-		129E18C25F2856A05D1A64B9 /* libPods-Cassette.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92FAF8F326A3573600EF78A7 /* libPods-Cassette.a */; };
 		3C4A83562311B29400D06FAE /* Cassette.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A83522311B29400D06FAE /* Cassette.release.xcconfig */; };
 		3C4A83572311B29400D06FAE /* Cassette.common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A83532311B29400D06FAE /* Cassette.common.xcconfig */; };
 		3C4A83582311B29400D06FAE /* Cassette.common.warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A83542311B29400D06FAE /* Cassette.common.warnings.xcconfig */; };
@@ -31,7 +29,7 @@
 		3C4A839123130A1200D06FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A839023130A1200D06FAE /* main.m */; };
 		3C4A839723130AA500D06FAE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4A839623130AA500D06FAE /* MainViewController.m */; };
 		3C4A839923130C0600D06FAE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C4A839823130C0600D06FAE /* MainViewController.xib */; };
-		3C4A839A23130C8D00D06FAE /* Cassette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E126BF01B1F816200856CCA /* Cassette.framework */; };
+		3C4A839A23130C8D00D06FAE /* Cassette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E126BF01B1F816200856CCA /* Cassette.framework */; platformFilters = (ios, tvos, ); };
 		6E126BF61B1F816200856CCA /* Cassette.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E126BF51B1F816200856CCA /* Cassette.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E126BFC1B1F816300856CCA /* Cassette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E126BF01B1F816200856CCA /* Cassette.framework */; };
 		6E126C031B1F816300856CCA /* CASQueueFileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E126C021B1F816300856CCA /* CASQueueFileTests.m */; };
@@ -75,10 +73,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0D910F2975ED908A5492A170 /* Pods-Cassette-CassetteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cassette-CassetteTests.release.xcconfig"; path = "Target Support Files/Pods-Cassette-CassetteTests/Pods-Cassette-CassetteTests.release.xcconfig"; sourceTree = "<group>"; };
-		11BC2AFE01B19B98289F90B4 /* libPods-Cassette-CassetteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cassette-CassetteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		20064E82733FF0AC4F765955 /* Pods-Cassette-CassetteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cassette-CassetteTests.debug.xcconfig"; path = "Target Support Files/Pods-Cassette-CassetteTests/Pods-Cassette-CassetteTests.debug.xcconfig"; sourceTree = "<group>"; };
-		33E401B0C57F6407AB4BA549 /* libPods-Cassette.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cassette.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4A83522311B29400D06FAE /* Cassette.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Cassette.release.xcconfig; sourceTree = "<group>"; };
 		3C4A83532311B29400D06FAE /* Cassette.common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Cassette.common.xcconfig; sourceTree = "<group>"; };
 		3C4A83542311B29400D06FAE /* Cassette.common.warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Cassette.common.warnings.xcconfig; sourceTree = "<group>"; };
@@ -105,7 +99,6 @@
 		3C4A839523130A9700D06FAE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		3C4A839623130AA500D06FAE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3C4A839823130C0600D06FAE /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
-		45D76CCD0A76E5C1CCFA8447 /* Pods-Cassette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cassette.release.xcconfig"; path = "Target Support Files/Pods-Cassette/Pods-Cassette.release.xcconfig"; sourceTree = "<group>"; };
 		6E126BF01B1F816200856CCA /* Cassette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cassette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E126BF41B1F816200856CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E126BF51B1F816200856CCA /* Cassette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cassette.h; sourceTree = "<group>"; };
@@ -114,14 +107,12 @@
 		6E126C021B1F816300856CCA /* CASQueueFileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASQueueFileTests.m; sourceTree = "<group>"; };
 		6E126C0C1B1F818100856CCA /* CASQueueFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASQueueFile.h; sourceTree = "<group>"; };
 		6E126C0D1B1F818100856CCA /* CASQueueFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASQueueFile.m; sourceTree = "<group>"; };
-		7F66F602AB0D8B57684B1FDD /* Pods-Cassette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cassette.debug.xcconfig"; path = "Target Support Files/Pods-Cassette/Pods-Cassette.debug.xcconfig"; sourceTree = "<group>"; };
 		91C04B412677CA8000874F5E /* CASDataSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASDataSerializer.h; sourceTree = "<group>"; };
 		91C04B462677CB8700874F5E /* CASDefaultDataSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASDefaultDataSerializer.h; sourceTree = "<group>"; };
 		91C04B472677CB8700874F5E /* CASDefaultDataSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASDefaultDataSerializer.m; sourceTree = "<group>"; };
 		92B2FBB426A4BE8500CB50F9 /* run_benchmark.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = run_benchmark.sh; sourceTree = "<group>"; };
 		92FAF8E226A355BE00EF78A7 /* CASBenchmark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CASBenchmark; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FAF8E426A355BE00EF78A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		92FAF8F326A3573600EF78A7 /* libPods-Cassette.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-Cassette.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92FAF90626A35F9B00EF78A7 /* Cassette-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cassette-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				129E18C25F2856A05D1A64B9 /* libPods-Cassette.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E126BFC1B1F816300856CCA /* Cassette.framework in Frameworks */,
-				00F51DF502CEE37E08D774E7 /* libPods-Cassette-CassetteTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +188,6 @@
 				92FAF8E326A355BE00EF78A7 /* CASBenchmark */,
 				6E126BF11B1F816200856CCA /* Products */,
 				E7D1C46B8C435EFD69D05914 /* Pods */,
-				76C6D6DC28656FE1072D5121 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,16 +255,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76C6D6DC28656FE1072D5121 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				92FAF8F326A3573600EF78A7 /* libPods-Cassette.a */,
-				33E401B0C57F6407AB4BA549 /* libPods-Cassette.a */,
-				11BC2AFE01B19B98289F90B4 /* libPods-Cassette-CassetteTests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		92FAF8E326A355BE00EF78A7 /* CASBenchmark */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,10 +267,6 @@
 		E7D1C46B8C435EFD69D05914 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F66F602AB0D8B57684B1FDD /* Pods-Cassette.debug.xcconfig */,
-				45D76CCD0A76E5C1CCFA8447 /* Pods-Cassette.release.xcconfig */,
-				20064E82733FF0AC4F765955 /* Pods-Cassette-CassetteTests.debug.xcconfig */,
-				0D910F2975ED908A5492A170 /* Pods-Cassette-CassetteTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -341,7 +315,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E126C061B1F816300856CCA /* Build configuration list for PBXNativeTarget "Cassette" */;
 			buildPhases = (
-				DFA5A9BA59C604BFA7557AFC /* [CP] Check Pods Manifest.lock */,
 				6E126BEB1B1F816200856CCA /* Sources */,
 				6E126BEC1B1F816200856CCA /* Frameworks */,
 				6E126BED1B1F816200856CCA /* Headers */,
@@ -360,7 +333,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6E126C091B1F816300856CCA /* Build configuration list for PBXNativeTarget "CassetteTests" */;
 			buildPhases = (
-				A27A331E6ED847DB1A22D589 /* [CP] Check Pods Manifest.lock */,
 				6E126BF71B1F816300856CCA /* Sources */,
 				6E126BF81B1F816300856CCA /* Frameworks */,
 				6E126BF91B1F816300856CCA /* Resources */,
@@ -479,53 +451,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		A27A331E6ED847DB1A22D589 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cassette-CassetteTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DFA5A9BA59C604BFA7557AFC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Cassette-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		3C4A837B23130A1000D06FAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -620,7 +545,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.CASSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -656,7 +583,9 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.CASSampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
@@ -754,7 +683,6 @@
 		};
 		6E126C071B1F816300856CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F66F602AB0D8B57684B1FDD /* Pods-Cassette.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					arm64,
@@ -774,16 +702,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.Cassette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Cassette/Cassette-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
 		6E126C081B1F816300856CCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 45D76CCD0A76E5C1CCFA8447 /* Pods-Cassette.release.xcconfig */;
 			buildSettings = {
 				ARCHS = (
 					arm64,
@@ -803,16 +731,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.linkedin.Cassette;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Cassette/Cassette-Bridging-Header.h";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
 		6E126C0A1B1F816300856CCA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20064E82733FF0AC4F765955 /* Pods-Cassette-CassetteTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -834,7 +762,6 @@
 		};
 		6E126C0B1B1F816300856CCA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D910F2975ED908A5492A170 /* Pods-Cassette-CassetteTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
